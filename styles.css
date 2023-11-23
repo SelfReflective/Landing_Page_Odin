@@ -183,6 +183,9 @@ a {
     color: #e5e7eb;
 }
 
+.right {
+    margin-right: 10px;
+}
 /* Containers */
 
 .container-outer {
@@ -193,12 +196,14 @@ a {
     display: flex;
     flex-direction: row;
     height: 100%;
-    padding-top: 10%;
+    padding: 10% 0;
 }
 
 .hero-container-child {
     flex: 1 1 50%;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* font */
@@ -234,6 +239,7 @@ a {
     border-style: none;
     font-weight: bold;
     color: #e5e7eb;
+    align-self: flex-start;
 }
 
 /* Section Random information */
